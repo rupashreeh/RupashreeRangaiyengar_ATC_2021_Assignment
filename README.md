@@ -1,5 +1,4 @@
-# ATC
-ATC Project assignment
+#ATC Project 
 
 Some of the ways that you can run this code:
 
@@ -16,4 +15,5 @@ Ensure that python3 site-packages are available at the commandline prompt
 9. python3 <path-where-file-is-downloaded>/pb.py "Not(Not(x1+x2<=2))" 2 1 2
 10 python3 <path-where-file-is-downloaded>/pb.py "Or(x1+x2<=2,Not(x2<=1))" 2 5 3
 
-Note: My examples folder contains images of my local run of the code. It is done on a Macbook. 
+Note: My examples folder contains images of my local run of the code. It is done on a Macbook Pro with macOs Catalina. 
+      I have not run this on a windows machine at all and do not know how it would behave.
