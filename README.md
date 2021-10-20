@@ -2,7 +2,14 @@
 
 Some of the ways that you can run this code:
 
-Ensure that python3 site-packages are available at the commandline prompt
+Ensure that python3 site-packages are available at the commandline prompt. I have the following imports:
+import sys
+import re
+import operator
+import math
+from z3 import *
+from prettytable import PrettyTable
+from operator import itemgetter
 
 1. python3 <path-where-file-is-downloaded>/pb.py "x1<=2" 1 10
 2. python3 <path-where-file-is-downloaded>/pb.py "x1<=2" 1 1
