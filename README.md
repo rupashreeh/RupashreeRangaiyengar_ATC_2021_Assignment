@@ -1,4 +1,4 @@
-                                                ATC Project 
+                                               ** ATC Project** 
 
 Some of the ways that you can run this code:
 
@@ -10,6 +10,17 @@ import math
 from z3 import *
 from prettytable import PrettyTable
 from operator import itemgetter
+
+Implemented Methods:
+
+solveAnd() - f1 and f2 
+solveOr() - f1 or f2
+solveNot() - ~f1
+=
+<=
+>=
+<
+>
 
 1. python3 <path-where-file-is-downloaded>/pb.py "x1<=2" 1 10
 2. python3 <path-where-file-is-downloaded>/pb.py "x1<=2" 1 1
@@ -27,7 +38,7 @@ from operator import itemgetter
 Note: My examples folder contains images of my local run of the code. It is done on a Macbook Pro with macOs Catalina. 
       I have not run this on a windows machine at all and do not know how it would behave.
      
-      The order in which variables are given is taken in the same order.
+      The order in which variables are given is taken in the same order. No order is imposed on variabe reading
    
       Spaces in the commands have no effect and are taken without the spaces: Example python3 python3 <path-where-file-is-downloaded>/pb.py "2*x7 + x2 <= 5" 2 1 2
  
