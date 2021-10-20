@@ -11,16 +11,18 @@ from z3 import *
 from prettytable import PrettyTable
 from operator import itemgetter
 
-Implemented Methods:
+Implemented Important Methods:
 
 solveAnd() - f1 and f2 
 solveOr() - f1 or f2
-solveNot() - ~f1
-=
-<=
->=
-<
->
+solveNot() - ~f
+solveEquals() - f1 == f2
+solveLessThanOrEquals() - f1 <=f2
+solveLessThan() - f1 < f2
+solveGreaterThanOrEquals() - f1 >= f2
+solveGreaterThan() - f1 > f2
+
+Additional helper methods to compute the alphabet like generateBinaryStrings etc
 
 1. python3 <path-where-file-is-downloaded>/pb.py "x1<=2" 1 10
 2. python3 <path-where-file-is-downloaded>/pb.py "x1<=2" 1 1
@@ -33,7 +35,7 @@ solveNot() - ~f1
 9. python3 <path-where-file-is-downloaded>/pb.py "Not(Not(x1+x2<=2))" 2 1 2
 10. python3 <path-where-file-is-downloaded>/pb.py "Or(x1+x2<=2,Not(x2<=1))" 2 5 3
 11. python3 <path-where-file-is-downloaded>/pb.py "2*x7+x2<=5" 2 1 2
-  
+12. python3 <path-where-file-is-downloaded>/pb.py "2*x7 + x2 == 5" 2 1 2
 
 Note: My examples folder contains images of my local run of the code. It is done on a Macbook Pro with macOs Catalina. 
       I have not run this on a windows machine at all and do not know how it would behave.
