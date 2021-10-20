@@ -37,6 +37,7 @@ solveGreaterThanOrEquals() - f1 >= f2
 solveGreaterThan() - f1 > f2
 
 **Helper methods**
+
 generateBinaryStrings() - computes the alphabet
 
 evaluateExpr() - evaluates the expression and returns the values
