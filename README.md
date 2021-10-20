@@ -3,27 +3,42 @@
 Some of the ways that you can run this code:
 
 Ensure that python3 site-packages are available at the commandline prompt. I have the following imports:
+
 import sys
+
 import re
+
 import operator
+
 import math
+
 from z3 import *
+
 from prettytable import PrettyTable
+
 from operator import itemgetter
 
 **Implemented Important Methods**
 
 solveAnd() - f1 and f2 
+
 solveOr() - f1 or f2
+
 solveNot() - ~f
+
 solveEquals() - f1 == f2
+
 solveLessThanOrEquals() - f1 <=f2
+
 solveLessThan() - f1 < f2
+
 solveGreaterThanOrEquals() - f1 >= f2
+
 solveGreaterThan() - f1 > f2
 
 **Helper methods**
 generateBinaryStrings() - computes the alphabet
+
 evaluateExpr() - evaluates the expression and returns the values
 
 1. python3 <path-where-file-is-downloaded>/pb.py "x1<=2" 1 10
