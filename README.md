@@ -11,7 +11,7 @@ from z3 import *
 from prettytable import PrettyTable
 from operator import itemgetter
 
-Implemented Important Methods:
+**Implemented Important Methods**
 
 solveAnd() - f1 and f2 
 solveOr() - f1 or f2
@@ -22,7 +22,9 @@ solveLessThan() - f1 < f2
 solveGreaterThanOrEquals() - f1 >= f2
 solveGreaterThan() - f1 > f2
 
-Additional helper methods to compute the alphabet like generateBinaryStrings etc
+**Helper methods**
+generateBinaryStrings() - computes the alphabet
+evaluateExpr() - evaluates the expression and returns the values
 
 1. python3 <path-where-file-is-downloaded>/pb.py "x1<=2" 1 10
 2. python3 <path-where-file-is-downloaded>/pb.py "x1<=2" 1 1
