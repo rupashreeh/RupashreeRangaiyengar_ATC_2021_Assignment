@@ -20,7 +20,14 @@ from operator import itemgetter
 7. python3 <path-where-file-is-downloaded>/pb.py "Not(x1+x2<=2)" 2 1 2
 8. python3 <path-where-file-is-downloaded>/pb.py "And(Not(x1+x2<=2),x2<=1)" 2 5 3
 9. python3 <path-where-file-is-downloaded>/pb.py "Not(Not(x1+x2<=2))" 2 1 2
-10 python3 <path-where-file-is-downloaded>/pb.py "Or(x1+x2<=2,Not(x2<=1))" 2 5 3
+10. python3 <path-where-file-is-downloaded>/pb.py "Or(x1+x2<=2,Not(x2<=1))" 2 5 3
+11. python3 <path-where-file-is-downloaded>/pb.py "2*x7+x2<=5" 2 1 2
+  
 
 Note: My examples folder contains images of my local run of the code. It is done on a Macbook Pro with macOs Catalina. 
       I have not run this on a windows machine at all and do not know how it would behave.
+     
+      The order in which variables are given is taken in the same order.
+   
+      Spaces in the commands have no effect and are taken without the spaces: Example python3 python3 <path-where-file-is-downloaded>/pb.py "2*x7 + x2 <= 5" 2 1 2
+ 
