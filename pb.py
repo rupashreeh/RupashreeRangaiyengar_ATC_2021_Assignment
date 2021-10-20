@@ -1446,7 +1446,7 @@ def subOr(responseOne, responseTwo, vars):
     mt2 = morphTransitions(secondAutomaton, secondStates)
     
     #print formula
-    print("And("+formulaOne+","+formulaTwo+")")
+    print("Or("+formulaOne+","+formulaTwo+")")
     ftStates = []
     ftStates.append("States")
     for n in range(0, len(binaryStrings)):
@@ -1489,11 +1489,11 @@ def subOr(responseOne, responseTwo, vars):
     
     print(tab)
     x = bool('False')
-    if evalExprOne and evalExprTwo:
-        ans = "And("+formulaOne+","+formulaTwo+")" + " is TRUE"
+    if evalExprOne or evalExprTwo:
+        ans = "Or("+formulaOne+","+formulaTwo+")" + " is TRUE"
         x = bool('True')
     else:
-        ans = "And("+formulaOne+","+formulaTwo+")" + " is FALSE"
+        ans = "Or("+formulaOne+","+formulaTwo+")" + " is FALSE"
     print(ans) 
 
 
