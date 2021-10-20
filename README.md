@@ -46,5 +46,6 @@ Note: My examples folder contains images of my local run of the code. It is done
       Out of order variables are also supported: For example: python3 pb.py "And(x9+x2 == 5, x7>4)" 3 1 2 4 is taken in the order input 
       and the program can handle it.
    
-      Spaces in the commands have no effect and are taken without the spaces: Example: python3 <path-where-file-is-downloaded>/pb.py "2*x7 + x2 <= 5" 2 1 2
+      Spaces in the commands have no effect and are taken without the spaces: 
+      Example: python3 <path-where-file-is-downloaded>/pb.py "2*x7 + x2 <= 5" 2 1 2
  
